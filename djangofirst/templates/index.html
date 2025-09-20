@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Навигационная панель -->
+    <nav class="navbar">
+        <div class="logo">Tech</div>
+        <ul class="menu">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Главная секция -->
+    <section id="home">
+        <h1>Проекты</h1>
+        <p>Этот сайт тоже сделал Я.</p>
+    </section>
+
+    <!-- Секция проектов -->
+    <section id="projects">
+        <h2>Проекты</h2>
+        <div class="project-card">
+            <img src="art_perspektiva.jpg" alt="Art Perspektiva">
+            <h3>Test 1</h3>
+            <p>Описание проекта</p>
+        </div>
+        
+        <div class="project-card">
+            <img src="abstraction.jpg" alt="Abstraction">
+            <h3>Abstraction</h3>
+            <p>Описание проекта Abstraction</p>
+        </div>
+
+        <!-- Другие проекты -->
+    </section>
+
+    <!-- Контактная форма -->
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form action="/submit-contact-form" method="post">
+            <input type="email" placeholder="Ваш email" required>
+            <textarea placeholder="Сообщение"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; Tech 2025</p>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
